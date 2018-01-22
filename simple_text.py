@@ -2,17 +2,15 @@
 
 import io
 import hashlib
-from datetime import timedelta
 
-from superdesk.utc import utcnow, get_expiry_date
+from superdesk.utc import utcnow
 from superdesk.io.registry import register_feed_parser
 from superdesk.io.feed_parsers import FeedParser
-from superdesk.errors import ParserError
-from superdesk.metadata.item import ITEM_TYPE, CONTENT_TYPE
-from superdesk.utc import utc
-from superdesk.metadata.utils import generate_guid, generate_tag
 
-# Simple text parser. Opens a file, sets it's title
+# Simple text parser, to be used along with
+# Superdesk's file feeding service
+
+# Opens a file, sets it's title
 # as the first sentence, and then as body the
 # whole text file
 # date created is set as now - in utc time
