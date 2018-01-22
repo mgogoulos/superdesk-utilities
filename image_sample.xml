@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsMessage xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rtr="http://www.this.com" xmlns:x="http://www.w3.org/1999/xhtml">
+  <header>
+    <sent>2018-03-04T11:14:13.000Z</sent>
+    <sender>reuters.com</sender>
+    <transmitId>tag:this.com,0000:newsml_GM1E9341HD701123:360624134</transmitId>
+    <priority>4</priority>
+  </header>
+  <itemSet>
+    <newsItem guid="tag:localimport,0000:newsml_GM1E9341HD701123123" version="36062413433" standard="NewsML-G2" standardversion="2.10" conformance="power" xml:lang="en">
+      <rightsInfo>
+        <usageTerms xml:lang="en">NONE</usageTerms>
+      </rightsInfo>
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml" />
+      <itemMeta>
+        <itemClass qcode="icls:picture" rtr:msgType="S" />
+        <provider literal="dkajsdasd" />
+        <versionCreated>2018-03-04T11:14:13.000Z</versionCreated>
+        <firstCreated>2018-03-04T11:14:13.000Z</firstCreated>
+        <pubStatus qcode="stat:usable" />
+        <role qcode="itemRole:N" />
+        <rtr:versionedId guid="tag:localimport-whatever.com,0000:newsml_GM1E9341HD701:360624134" />
+      </itemMeta>
+      <contentMeta>
+        <urgency>4</urgency>
+        <subject literal="NISIROS" type="cptType:5">
+          <name>NISIROS</name>
+          <facet qcode="geoProp:8" />
+          <broader qcode="N2:GR" type="cptType:5">
+            <name>GREECE</name>
+            <facet qcode="geoProp:5" />
+          </broader>
+        </subject>
+        <slugline separator="-">abccsd/</slugline>
+        <headline>autoimported image: nisyros island</headline>
+        <by>this is the by field</by>
+        <creditline>qwefghh</creditline>
+        <description role="descRole:caption">Nisyros (Greek: Νίσυρος) is a volcanic Greek island and municipality located in the Aegean Sea. It is part of the Dodecanese group of islands, situated between the islands of Kos and Tilos.
+
+Its shape is approximately round, with a diameter of about 8 km (5 mi), and an area of 41.6 km2 (16.062 sq mi).[2] Several other islets are found in the direct vicinity of Nisyros, the largest of which is Gyali. The Municipality of Nisyros includes Gyalí (pop. 21) as well as uninhabited Pacheiá, Pergoússa, Kandelioússa, Ágios Antónios and Stroggýli. It has a total land area of 50.055 km2 (19.326 sq mi)[3] and a total population of 1,008 inhabitants. The island was also called Nisiro in Italian and İncirli in Turkish.</description>
+      </contentMeta>
+      <contentSet>
+        <remoteContent residref="tag:this.com,0000:binary_GM1E9341HD701-BASEIMAGE" href="http://www.greece-is.com/wp-content/uploads/2017/02/NISYROS-TRAVEL-NISIROS-10.jpg" rendition="rend:baseImage" contenttype="image/jpeg" format="fmt:jpegBaseline" rtr:formatVersion="1">
+          <rtr:altId type="idType:fileBIN" contentType="image/jpeg">nisyros</rtr:altId>
+        </remoteContent>
+      </contentSet>
+    </newsItem>
+  </itemSet>
+</newsMessage>
